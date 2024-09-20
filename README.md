@@ -1,16 +1,10 @@
 # tchibo_emarsys_testing
 
-A new Flutter project.
+A very simple Flutter app that demonstrates how Emarsys SDK fails to throw an exception when
+`Emarsys.push.pushSendingEnabled` is called when private DNS is enabled on an Android devices'
 
-## Getting Started
+## Steps to reproduce
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. On Android go to System Settings > Network & Internet > Private DNS
+2. Enter the Adguard DNS server: `dns.adguard.com`
+3. When calling await Emarsys.push.pushSendingEnabled(isEnabled); the Emarsys SDK fails without an exception.
