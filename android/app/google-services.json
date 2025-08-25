@@ -1,1 +1,48 @@
-
+  {
+  "project_info": {
+    "project_number": "1076639150361",
+    "project_id": "emarsys-basic",
+    "storage_bucket": "emarsys-basic.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076639150361:android:14108cf45019e8f6645588",
+        "android_client_info": {
+          "package_name": "com.example.tchibo_emarsys_testing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK95UrlFX6gvPF3OiQhrGvHyE_T9nd4iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076639150361:android:4e4137b54c89808b645588",
+        "android_client_info": {
+          "package_name": "de.tchibo_test_emarsys.test_emarsys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK95UrlFX6gvPF3OiQhrGvHyE_T9nd4iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

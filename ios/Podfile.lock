@@ -1,0 +1,48 @@
+PODS:
+  - app_settings (5.1.1):
+    - Flutter
+  - emarsys_sdk (0.0.1):
+    - EmarsysSDK (~> 3.9.0)
+    - Flutter
+  - EmarsysSDK (3.9.0)
+  - Flutter (1.0.0)
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - app_settings (from `.symlinks/plugins/app_settings/ios`)
+  - emarsys_sdk (from `.symlinks/plugins/emarsys_sdk/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - EmarsysSDK
+
+EXTERNAL SOURCES:
+  app_settings:
+    :path: ".symlinks/plugins/app_settings/ios"
+  emarsys_sdk:
+    :path: ".symlinks/plugins/emarsys_sdk/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  app_settings: 58017cd26b604ae98c3e65acbdd8ba173703cc82
+  emarsys_sdk: 7fd3aac2f12614bbc59c160e91ec68e8bd708dd7
+  EmarsysSDK: 77c5a8ff4c5cdfd6b5bfb7d08c62fcb4aac2e2b5
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  permission_handler_apple: 9878588469a2b0d0fc1e048d9f43605f92e6cec2
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
+
+PODFILE CHECKSUM: 1959d098c91d8a792531a723c4a9d7e9f6a01e38
+
+COCOAPODS: 1.16.2
